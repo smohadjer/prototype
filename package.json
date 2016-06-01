@@ -1,10 +1,10 @@
 {
-	"name": "silviamohadjer.de",
-	"version": "0.1.2",
-	"description": "Website for Silvia Mohadjer",
+	"name": "prototype",
+	"version": "1.0.0",
+	"description": "Demo for Website Service",
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.org/smohadjer/silviamohadjer.de"
+		"url": "https://github.com/smohadjer/prototype"
 	},
 	"license": "",
 	"devDependencies": {

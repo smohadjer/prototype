@@ -1,6 +1,6 @@
 {
-	"name": "silviamohadjer.de",
-	"private": true,
+	"name": "prototype",
+	"private": false,
 	"dependencies": {
 		"jquery": "2.2.3",
 		"helperCSS": "smohadjer/helpers",
