@@ -1,0 +1,11 @@
+{% macro active(currentPage='home') %}
+<nav>
+	<ul>
+		<li class="{%if currentPage == 'home' %} selected {% endif %}"><a href="index.html">Home</a></li>
+		<li class="{%if currentPage == 'psycho' %} selected {% endif %}"><a href="psychotherapie.html">Weg zur Psychotherapie</a></li>
+		<li class="{%if currentPage == 'about' %} selected {% endif %}"><a href="ueber-mich.html">Über mich</a></li>
+		<li class="{%if currentPage == 'contact' %} selected {% endif %}"><a href="kontakt.html">Kontakt</a></li>
+		<li class="{%if currentPage == 'links' %} selected {% endif %}"><a href="links.html">Links</a></li>
+	</ul>
+</nav>
+{% endmacro %}
